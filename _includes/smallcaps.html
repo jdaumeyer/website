@@ -1,0 +1,72 @@
+{% comment %}
+<!-- A very hacky function to create small caps text on demand. -->
+{% endcomment %}
+
+{% assign word = include.word | split: "" %}
+{% assign i=0 %}
+
+{% for letter in word %}
+
+    {% if i == 0 %}
+        {% continue %}
+    {% endif %}
+
+    {% case letter %}
+
+        {% when "a" %}
+            ᴀ
+        {% when "b" %}
+            ʙ
+        {% when "c" %}
+            ᴄ
+        {% when "d" %}
+            ᴅ
+        {% when "e" %}
+            ᴇ
+        {% when "f" %}
+            ғ
+        {% when "g" %}
+            ɢ
+        {% when "h" %}
+            ʜ
+        {% when "i" %}
+            ɪ
+        {% when "j" %}
+            ᴊ
+        {% when "k" %}
+            ᴋ
+        {% when "l" %}
+            ʟ
+        {% when "m" %}
+            ᴍ
+        {% when "n" %}
+            ɴ
+        {% when "o" %}
+            ᴏ
+        {% when "p" %}
+            ᴘ
+        {% when "q" %}
+            ᴏ̨
+        {% when "r" %}
+            ʀ
+        {% when "s" %}
+            s
+        {% when "t" %}
+            ᴛ
+        {% when "u" %}
+            ᴜ
+        {% when "v" %}
+            ᴠ
+        {% when "w" %}
+            ᴡ
+        {% when "x" %}
+            x
+        {% when "y" %}
+            ʏ
+        {% when "z" %}
+            ᴢ
+        {% else %}
+            {% continue %}
+    {% endcase %}
+
+{% endfor %}

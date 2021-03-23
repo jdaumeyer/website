@@ -1,0 +1,26 @@
+---
+title: Work | Jackson Daumeyer
+permalink: /work/
+---
+
+<html>
+
+    {% include head.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/blog.css" />
+
+    <body>
+        {% include header.html %}
+
+
+        <section>
+
+        <h1>My Work:</h1>
+
+        {% for post in site.categories.work %}
+           {% include postcard.html %}
+        {% endfor %}
+
+        </section>
+
+    </body>
+</html>

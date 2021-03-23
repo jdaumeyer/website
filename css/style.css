@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+FatFace&family=Bree+Serif&family=Source+Sans+Pro&family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: 0.2s;
+	/*font-family: 'Open Sans', sans-serif;*/
+
+	/* Color Variables */
+	--black: #2a2a29;
+	--white: #e4e4e5;
+	--grey: #655c5a;
+	--blue:  #097BCD;
+	--orange: #F49F0A;
+
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--black);
+	background-color: var(--white);
+}
+
+header {
+
+	/* Box Model */
+
+	padding: 1em;
+	position: fixed;
+
+	/* Style */
+
+	/* Flex */
+
+}
+
+
+section {
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 40%;
+}
+
+section.hero {
+
+	position: relative;
+
+	/* Flex */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+
+	/* Other */
+	overflow: hidden;
+	z-index: 2 !important;
+	background-color: var(--black);
+	color: var(--white);
+}
+
+/*
+.hero h1 {
+	color: var(--white);
+}
+
+.hero h2 {
+	color: var(--white);
+}
+
+.hero p {
+	color: var(--white);
+}
+
+*/
+
+.hero a {
+	color: var(--white);
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	padding: 1em;
+	padding-left: 4em;
+}
+
+nav a {
+	text-decoration: none;
+	color: inherit;
+	font-family: "Merriweather", serif;
+	position: relative;
+}
+
+/* Underline Class is used for the navigation underline animation */
+a.underline {
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+	padding-bottom: -1em;
+}
+
+a.underline:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--black);
+	visibility: hidden;
+	transition: all 0.3s ease-out;
+}
+
+a.underline:hover:before {
+	visibility: visible;
+	width: 100%;
+}
+
+/* Text Properties */
+
+h1  {
+	font-weight: 900;
+	font-size: 36pt;
+	background-color: transparent;
+	margin-bottom: 1.5rem;
+	font-family: 'Merriweather', serif;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 36pt;
+	font-family: 'Merriweather', serif;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 24pt;
+	font-family: 'Merriweather', serif;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 18pt;
+	font-family: 'Merriweather', serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+.small-caps {
+	font-family: 'Merriweather', serif;
+	-moz-font-feature-settings: 'smcp';
+	-webkit-font-feature-settings: 'smcp';
+	-o-font-feature-settings: 'smcp';
+	font-feature-settings: 'smcp';
+}
+
+
+/*=================*/
+/*  Media Queries  */
+/*=================*/
+
+/* Phones */
+@media only screen and (min-width: 320px) {
+
+	section {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	section.hero {
+		padding-bottom: 40%;
+	}
+
+	section.hero p {
+		text-align: left;
+	}
+
+	header {
+		top: auto;
+		height: 10vh;
+		bottom: -1px;
+		background-color: var(--black);
+		color: var(--white);
+		justify-content: space-around;
+	}
+
+	nav li {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	nav {
+		padding-bottom: 1em;
+	}
+
+	.monogram {
+		display: none;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+	section {
+		padding-left: 15%;
+		padding-right: 35%;
+	}
+
+	section.hero {
+		/* Box Model */
+		height: 101vh;
+		width: 100%;
+		padding-bottom: 10%;
+		padding-top: 10%;
+
+	}
+
+	.monogram {
+		display: block;
+	}
+
+	header {
+		top: 0;
+		z-index: 999 !important;
+		background: rgba(0,0,0,0);
+		color: var(--black);
+		width: 100%;
+		height: 40%;
+		display: flex;
+		justify-content: space-between;
+
+	}
+}

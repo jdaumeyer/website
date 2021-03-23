@@ -1,0 +1,26 @@
+---
+title: Blog | Jackson Daumeyer
+permalink: /blog/
+---
+
+<html>
+
+    {% include head.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/blog.css" />
+
+    <body>
+        {% include header.html %}
+
+
+        <section>
+
+        <h1>Blog Posts:</h1>
+
+        {% for post in paginator.posts %}
+            {% include postcard.html %}
+        {% endfor %}
+
+        </section>
+
+    </body>
+</html>
