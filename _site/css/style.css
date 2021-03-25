@@ -52,6 +52,7 @@ section {
 section.hero {
 
 	position: relative;
+	height: 99vh;
 
 	/* Flex */
 	display: flex;
@@ -65,21 +66,6 @@ section.hero {
 	background-color: var(--black);
 	color: var(--white);
 }
-
-/*
-.hero h1 {
-	color: var(--white);
-}
-
-.hero h2 {
-	color: var(--white);
-}
-
-.hero p {
-	color: var(--white);
-}
-
-*/
 
 .hero a {
 	color: var(--white);
@@ -110,6 +96,7 @@ a.underline {
 	text-decoration: none;
 	color: inherit;
 	padding-bottom: -1em;
+	border-bottom: none;
 }
 
 a.underline:before {
@@ -127,6 +114,11 @@ a.underline:before {
 a.underline:hover:before {
 	visibility: visible;
 	width: 100%;
+}
+
+a {
+	font-family: "Open Sans", sans-serif;
+	/* border-bottom: 2px dashed grey; */
 }
 
 /* Text Properties */
