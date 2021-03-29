@@ -5,12 +5,12 @@
     {{ endif }}
     <content>
     <div class="card-header">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
         <span class="date"> {{ post.date | date_to_string }} </span>
     </div>
 
 
-    <p> {{ post.content | truncatewords: 50}} <a class="underline bloglink" href="{{ post.url }}">Read more </a></p>
+    <p class="excerpt"> {{ post.excerpt}} <a class="underline bloglink" href="{{ post.url }}">Read more </a></p>
 
 
  <!-- Generate Tag List -->

@@ -3,8 +3,9 @@
     display: flex;
 }
 
+.postcard img,
 .postcard content {
-    margin-left: 2em;
+    margin-right: 2em;
 }
 
 section#title{
@@ -15,6 +16,9 @@ section#title{
     margin-bottom: 1em;
 }
 
+.postcard p::first-letter {
+    font-family: "Vollkorn SC", serif;
+}
 
 ul.chip {
     list-style-type: none;
@@ -51,8 +55,4 @@ a.bloglink {
 
 a.bloglink::after {
     content: "→"
-}
-
-h3 {
-    margin-left: -0.5em;
 }

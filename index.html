@@ -21,7 +21,11 @@ title: Jackson Daumeyer
 		</div>
 	</section>
 
-	<section class="work" id="section1">
+	<section class="work bloglist" id="section1">
+
+		<div class="section-header">
+			<h2> My Work: </h2>
+		</div>
 
 		{% for post in site.categories.work limit:3%}
 			{% include postcard.html %}

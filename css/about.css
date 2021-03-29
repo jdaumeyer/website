@@ -1,8 +1,5 @@
 #profile {
     float: right;
-    width: 10%;
-}
-
-.left {
-    width: 75%;
+    shape-outside: margin-box;
+    margin-left: 2rem;
 }
