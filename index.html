@@ -4,6 +4,7 @@ title: Jackson Daumeyer
 <html>
 
 {% include head.html %}
+<link type="text/css" rel="stylesheet" href="css/blog.css">
 
 <body>
 
@@ -21,6 +22,11 @@ title: Jackson Daumeyer
 	</section>
 
 	<section class="work" id="section1">
+
+		{% for post in site.categories.work limit:3%}
+			{% include postcard.html %}
+		{% endfor %}
+
 	</section>
 
 </body>

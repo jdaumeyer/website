@@ -11,7 +11,7 @@
 	/*font-family: 'Open Sans', sans-serif;*/
 
 	/* Color Variables */
-	--black: #2a2a29;
+	--black: #1b1b1a;
 	--white: #e4e4e5;
 	--grey: #655c5a;
 	--blue:  #097BCD;
@@ -35,6 +35,8 @@ header {
 
 	padding: 1em;
 	position: fixed;
+
+	mix-blend-mode: difference;
 
 	/* Style */
 
@@ -85,9 +87,11 @@ nav li {
 
 nav a {
 	text-decoration: none;
-	color: inherit;
 	font-family: "Merriweather", serif;
+	color: #d5d5d6;
 	position: relative;
+	mix-blend-mode: difference;
+	filter: invert(100%);
 }
 
 /* Underline Class is used for the navigation underline animation */
@@ -95,6 +99,7 @@ a.underline {
 	position: relative;
 	text-decoration: none;
 	color: inherit;
+	border-color: inherit;
 	padding-bottom: -1em;
 	border: none;
 }

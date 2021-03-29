@@ -1,12 +1,16 @@
-<div class="card">
+<div class="postcard">
 
+    {{ if post.image }}
+        <img src="{{ post.image | relative_url }}" />
+    {{ endif }}
+    <content>
     <div class="card-header">
-        <h3><a class="underline" href="{{ post.url }}"> {{ post.title }} </a></h3>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <span class="date"> {{ post.date | date_to_string }} </span>
     </div>
 
 
-    <p> {{ post.content | truncatewords: 50}} <a class="bloglink" href="{{ post.url }}"> Read more -> </a></p>
+    <p> {{ post.content | truncatewords: 50}} <a class="underline bloglink" href="{{ post.url }}">Read more </a></p>
 
 
  <!-- Generate Tag List -->
@@ -15,5 +19,6 @@
             <li> {{ tag | capitalize }} </li>
         {% endfor %}
     </ul>
+    </content>
 
 </div>

@@ -1,8 +1,14 @@
-.card {
+.postcard {
+    margin-bottom: 3em;
+    display: flex;
+}
+
+.postcard content {
+    margin-left: 2em;
 }
 
 section#title{
-    margin-bottom: 0.5em;
+    margin-bottom: 0.1rem;
 }
 
 .card-header {
@@ -33,4 +39,20 @@ ul.chip:first-child {
 
 ul.chip li:hover {
     background-color: #d3d3d3;
+}
+
+a.bloglink {
+    border: none;
+    padding-bottom: 0;
+    padding: 0;
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+}
+
+a.bloglink::after {
+    content: "→"
+}
+
+h3 {
+    margin-left: -0.5em;
 }
