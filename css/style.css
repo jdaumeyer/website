@@ -99,6 +99,7 @@ nav a {
 	filter: invert(100%);
 }
 
+
 /* Underline Class is used for the navigation underline animation */
 a.underline {
 	position: relative;
@@ -126,7 +127,7 @@ a.underline:hover:before {
 	width: 100%;
 }
 
-a {
+a.roundedchip {
 	font-family: "Open Sans", sans-serif;
 	border: 1px solid #e4e4e5;
 	border-radius: 20px;
@@ -139,7 +140,7 @@ a {
 
 h1  {
 	font-weight: 900;
-	font-size: 36pt;
+	font-size: 3.25em;
 	background-color: transparent;
 	margin-bottom: 1.5rem;
 	font-family: 'Merriweather', serif;
@@ -147,25 +148,25 @@ h1  {
 
 h2 {
 	font-weight: normal;
-	font-size: 36pt;
+	font-size: 3.25em;
 	font-family: 'Merriweather', serif;
 }
 
 h3 {
 	font-weight: normal;
-	font-size: 24pt;
+	font-size: 2.25em;
 	font-family: 'Merriweather', serif !important;
 }
 
 h4 {
 	font-weight: normal;
-	font-size: 18pt;
+	font-size: 1.75em;
 	font-family: 'Merriweather', serif;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
+	font-size: 1em;
 	text-align: justify;
 }
 
