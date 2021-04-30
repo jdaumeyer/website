@@ -3,6 +3,12 @@
     display: flex;
 }
 
+.postcard a h3 {
+    color: var(--black);
+    text-decoration: none !important;
+
+}
+
 .postcard img,
 .postcard content {
     margin-right: 2em;
@@ -55,4 +61,14 @@ a.bloglink {
 
 a.bloglink::after {
     content: "→"
+}
+
+.article content > p {
+    max-width: 60ch;
+    margin: 2rem 0;
+    line-height: 1.6;
+}
+
+.title {
+    padding-bottom: 3em;
 }

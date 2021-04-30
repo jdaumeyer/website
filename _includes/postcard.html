@@ -10,7 +10,7 @@
     </div>
 
 
-    <p class="excerpt"> {{ post.excerpt}} <a class="underline bloglink" href="{{ post.url }}">Read more </a></p>
+    <p class="excerpt"> {{ post.excerpt | remove: "<p>" | remove: "</p>"}} <a class="highlight" href="{{ post.url }}">Read more </a></p>
 
 
  <!-- Generate Tag List -->
