@@ -5,8 +5,10 @@
 
 .postcard a h3 {
     color: var(--black);
-    text-decoration: none !important;
+}
 
+.card-header a {
+    text-decoration: none !important;
 }
 
 .postcard img,
