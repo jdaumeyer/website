@@ -12,9 +12,13 @@ permalink: /work/
         {% include header.html %}
 
 
-        <section>
+        <section id="title">
 
         <h2>My Work:</h2>
+
+        </section>
+
+        <section>
 
         {% for post in site.categories.work %}
            {% include postcard.html %}
