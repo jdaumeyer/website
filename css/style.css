@@ -1,18 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+FatFace&family=Bree+Serif&family=Source+Sans+Pro&family=Fredoka+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Spectral+SC&family=Vollkorn+SC&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	transition: 0.2s;
-	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Karla', sans-serif;
 
 	/* Color Variables */
-	--black: #1b1b1a;
+	--black: #2a2a29;
 	--white: #e4e4e5;
 	--grey: #655c5a;
 	--blue:  #097BCD;
@@ -28,6 +22,10 @@ body {
 	padding: 0;
 	color: var(--black);
 	background-color: var(--white);
+}
+
+em {
+	font-family: inherit;
 }
 
 header {
@@ -92,7 +90,7 @@ nav li {
 
 nav a {
 	text-decoration: none;
-	font-family: "Merriweather", serif;
+	font-family: "Playfair Display", serif;
 	color: #d5d5d6;
 	position: relative;
 	mix-blend-mode: difference;
@@ -128,7 +126,7 @@ a.underline:hover:before {
 }
 
 a.roundedchip {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Karla', sans-serif;
 	border: 1px solid #e4e4e5;
 	border-radius: 20px;
 	text-decoration: none;
@@ -139,40 +137,42 @@ a.roundedchip {
 /* Text Properties */
 
 h1  {
-	font-weight: 900;
-	font-size: 3.25em;
+	font-size: 4em;
 	background-color: transparent;
 	margin-bottom: 1.5rem;
-	font-family: 'Merriweather', serif;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
 }
 
 h2 {
-	font-weight: normal;
 	font-size: 3.25em;
-	font-family: 'Merriweather', serif;
+	font-family: 'Playfair Display', serif !important;
+	font-weight: 800;
 }
 
 h3 {
-	font-weight: normal;
 	font-size: 2.25em;
-	font-family: 'Merriweather', serif !important;
+	font-family: 'Playfair Display', serif !important;
+	font-weight: 900;
 }
 
 h4 {
-	font-weight: normal;
 	font-size: 1.75em;
-	font-family: 'Merriweather', serif;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 1em;
 	text-align: justify;
 }
 
 .smallcaps {
 	/*font-family: 'IM Fell Double Pica SC', serif;/**/
-	font-family: 'Vollkorn SC', serif;
+	/*font-family: 'Vollkorn SC', serif;/**/
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
 
 }
 
