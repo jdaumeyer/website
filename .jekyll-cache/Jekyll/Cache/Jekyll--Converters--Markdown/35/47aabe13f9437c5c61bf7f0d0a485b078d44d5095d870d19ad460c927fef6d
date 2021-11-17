@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
-	<link rel="shortcut icon" type="image/jpeg" href="images/favicon.ico" />
-
-	<title>Font Development</title>
-
-    <!-- Import Google Fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet"> <!-- Karla -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;0,900;1,900&display=swap" rel="stylesheet"> <!-- Playfair Display -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet"><!-- Playfair Small Caps -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-
-
-    <link rel="stylesheet" type="text/css" href="/css/blog.css" />
-    <link rel="stylesheet" type="text/css" href="/css/post.css" />
-
-    <body>
-        <header>
-		<div class="monogram"><a href="/">
-				<img src="/assets/images/monogram.png" />
-            </a>
-
-		</div>
-		<nav>
-			<ul>
-				<li><a href="/work" class="underline">Work</a></li>
-				<li><a href="/about" class="underline">About</a></li>
-				<li><a href="/blog" class="underline">Blog</a></li>
-			</ul>
-		</nav>
-</header>
-
-
-        <section class="article">
-
-            <div class="title">
-                <h2> Font Development </h2>
-                <p> 06 Mar 2021 </p>
-            </div>
-
-            <content>
-                <p><span class="smallcaps"> I have always had a passion for typography.</span> I’ve loved the way that letters look, so in school I took the opportunity to develop a font of my own. <!-- excerpt -->Nitrogen is actally the second font that I made.</p>
+I"O<p><span class="smallcaps"> I have always had a passion for typography.</span> I’ve loved the way that letters look, so in school I took the opportunity to develop a font of my own. <!-- excerpt -->Nitrogen is actally the second font that I made.</p>
 
 <p><img src="/assets/images/blear.png" alt="Picture of blear font" /></p>
 
@@ -66,10 +14,4 @@
 
 <p>However despite its roughness, <em>Nitrogen</em> is still a project I am very proud of. It was my first time creating a vector font and that definitely shows, but I still looks good. If you want to check it out, files for it can be found on my <a href="https://github.com/modernTypewritter/nitro">Github</a> as well.</p>
 
-
-            </content>
-        </section>
-
-    </body>
-
-</html>
+:ET
