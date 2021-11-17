@@ -1,0 +1,2 @@
+#+TITLE: "Hot Sauce" Redesign
+My previous website design has become a little bland and unwieldy for me to work on. So my goal is to make something a lot more exciting and unique taking inspiration from the [[https://www.peppasauce.love/][Mama Joyce Peppa Sauce]] site and medieval manuscripts.
