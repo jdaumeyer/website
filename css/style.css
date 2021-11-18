@@ -62,6 +62,17 @@ section.hero {
 	color: var(--white);
 }
 
+.vertical {
+	display: flex;
+	flex-derection: column;
+
+}
+
+.horizontal {
+	display: flex;
+	flex-direction: row;
+}
+
 .hero a {
 	color: var(--white);
 }
@@ -126,6 +137,7 @@ a.roundedchip {
 	border-radius: 20px;
 	text-decoration: none;
 	padding: 0.4em;
+	margin-top: 2em !important;
 	/* border-bottom: 2px dashed grey; */
 }
 
@@ -230,8 +242,9 @@ p {
 		padding-top: 10%;
 	}
 
-	section.hero > div {
+	section.hero > content {
 		width: 40vw;
+		height: auto;
 		padding: 2em;
 		border: 3px solid white;
 		border-radius: 20px;
