@@ -11,9 +11,18 @@
     text-decoration: none !important;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
 .postcard img,
 .postcard content {
     margin-right: 2em;
+    display: auto;
+    width: auto;
 }
 
 section#title{

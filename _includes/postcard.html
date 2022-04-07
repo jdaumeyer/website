@@ -13,12 +13,14 @@
     <p class="excerpt"> {{ post.excerpt | remove: "<p>" | remove: "</p>"}} <a class="highlight" href="{{ post.url }}">Read more </a></p>
 
 
+ <!-- Unused
  <!-- Generate Tag List -->
-    <ul class="chip">
-        {% for tag in post.tags %}
-            <li> {{ tag | capitalize }} </li>
-        {% endfor %}
-    </ul>
+<!--<ul class="chip">
+<!--{% for tag in post.tags %}
+<!--<li> {{ tag | capitalize }} </li>
+<!--{% endfor %}
+<!--</ul>
     </content>
+
 
 </div>
