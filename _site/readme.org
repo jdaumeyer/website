@@ -1,0 +1,6 @@
+#+TITLE: Jackson's Website
+This is just a simple static site built with jekyll.
+
+#+begin_export none
+
+#+end_export
